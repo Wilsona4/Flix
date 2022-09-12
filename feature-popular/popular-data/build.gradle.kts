@@ -34,9 +34,11 @@ dependencies {
 
     kapt(Build.kotlinMetaData)
 
+
     implementation(Dependencies.DaggerHilt.hiltAndroid)
     implementation(Dependencies.Paging.paging3Common)
     kapt(Dependencies.DaggerHilt.hiltCompiler)
 
     implementation(Dependencies.Coroutines.coroutines)
+    implementation(Testing.junitAndroidExt)
 }

@@ -9,4 +9,5 @@ import org.junit.runner.RunWith
 @OptIn(ExperimentalCoroutinesApi::class)
 @RunWith(AndroidJUnit4::class)
 class RemoteMediatorTest {
+
 }

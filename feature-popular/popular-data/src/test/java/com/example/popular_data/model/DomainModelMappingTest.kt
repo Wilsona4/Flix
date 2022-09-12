@@ -1,15 +1,15 @@
-package com.example.core_database.model
+package com.example.popular_data.model
 
-import com.example.core_network.model.PopularMovieDTO
+import com.example.core_database.model.PopularMovieEntity
 import org.junit.Assert
 import org.junit.Test
 
 
-class ModelMappingTest {
+class DomainModelMappingTest {
 
     @Test
-    fun popular_movie_dto_can_be_mapped_to_popular_movie_entity() {
-        val networkModel = PopularMovieDTO(
+    fun popular_movie_entity_can_be_mapped_to_popular_movie() {
+        val cacheModel = PopularMovieEntity(
             adult = true,
             backdrop_path = "/e1mjopzAS2KNsvpbpahQ1a6SkSn.jpg",
             genre_ids = listOf(1, 2, 4, 5),
@@ -26,11 +26,12 @@ class ModelMappingTest {
             vote_average = 5.8,
             vote_count = 5193
         )
-        val entity = networkModel.asEntity()
+        val domainModel = cacheModel.asDomainModel()
 
-        Assert.assertEquals(1, entity.id)
-        Assert.assertEquals(true, entity.adult)
-        Assert.assertEquals("Suicide Squad", entity.title)
+        Assert.assertEquals(1, domainModel.id)
+        Assert.assertEquals(true, domainModel.adult)
+        Assert.assertEquals("Suicide Squad", domainModel.title)
+        Assert.assertEquals(listOf(1, 2, 4, 5), domainModel.genre_ids)
     }
 
 }
