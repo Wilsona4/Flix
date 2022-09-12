@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Flix"
+include ':app'
+include ':core-database'
+include ':core-network'
+include ':core-testing'
+include ':feature-popular'
+include ':feature-popular:popular-data'
+include ':feature-popular:popular-presentation'
