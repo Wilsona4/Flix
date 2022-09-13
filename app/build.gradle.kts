@@ -55,9 +55,9 @@ dependencies {
 
     implementation(project(Modules.coreDatabase))
     implementation(project(Modules.coreNetwork))
-    implementation(project(Modules.coreTesting))
     implementation(project(Modules.featurePopularData))
     implementation(project(Modules.featurePopularPresentation))
+    testImplementation(project(Modules.coreTesting))
 
     implementation(Dependencies.Material.material)
 

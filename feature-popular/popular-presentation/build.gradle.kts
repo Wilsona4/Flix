@@ -8,13 +8,13 @@ plugins {
 }
 
 android {
-    compileSdk = 32
+    compileSdk = ProjectConfig.compileSdk
 
     defaultConfig {
-        minSdk = 26
-        targetSdk = 32
+        minSdk = ProjectConfig.minSdk
+        targetSdk = ProjectConfig.targetSdk
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = ProjectConfig.testInstrumentationRunner
         consumerProguardFiles("consumer-rules.pro")
     }
 
@@ -33,8 +33,8 @@ android {
 
 dependencies {
 
-    implementation(project(Modules.coreTesting))
     implementation(project(Modules.featurePopularData))
+    testImplementation(project(Modules.coreTesting))
 
     implementation(Dependencies.DaggerHilt.hiltAndroid)
     kapt(Dependencies.DaggerHilt.hiltCompiler)
@@ -54,6 +54,4 @@ dependencies {
     implementation(Dependencies.Navigation.uiKtx)
 
     implementation(Dependencies.Paging.paging3)
-
-    implementation(Dependencies.Timber.timber)
 }
