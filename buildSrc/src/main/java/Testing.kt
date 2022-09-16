@@ -22,7 +22,7 @@ object Testing {
     private const val turbineVersion = "0.7.0"
     const val turbine = "app.cash.turbine:turbine:$turbineVersion"
 
-    private const val mockWebServerVersion = "4.9.3"
+    private const val mockWebServerVersion = "4.10.0"
     const val mockWebServer = "com.squareup.okhttp3:mockwebserver:$mockWebServerVersion"
 
     private const val testRunnerVersion = "1.4.0"

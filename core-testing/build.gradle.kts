@@ -40,6 +40,7 @@ dependencies {
 
     implementation(Dependencies.DaggerHilt.hiltAndroid)
     kapt(Dependencies.DaggerHilt.hiltCompiler)
+    kapt(Build.kotlinMetaData)
 
     api(Dependencies.Timber.timber)
 
@@ -50,28 +51,8 @@ dependencies {
     api(Testing.turbine)
     api(Testing.espressoCore)
     api(Testing.testRunner)
-    api(Testing.mockkAndroid)
+//    api(Testing.mockkAndroid)
     api(Testing.mockWebServer)
     api(Testing.hiltTesting)
     kaptAndroidTest(Dependencies.DaggerHilt.hiltCompiler)
-
-//    testImplementation(Testing.junit4)
-//    testImplementation(Testing.junitAndroidExt)
-//    testImplementation(Testing.truth)
-//    testImplementation(Testing.coroutines)
-//    testImplementation(Testing.turbine)
-//    testImplementation(Testing.mockk)
-//    testImplementation(Testing.mockWebServer)
-//
-//    androidTestImplementation(Testing.junit4)
-//    androidTestImplementation(Testing.junitAndroidExt)
-//    androidTestImplementation(Testing.truth)
-//    androidTestImplementation(Testing.coroutines)
-//    androidTestImplementation(Testing.turbine)
-//    androidTestImplementation(Testing.espressoCore)
-//    androidTestImplementation(Testing.mockkAndroid)
-//    androidTestImplementation(Testing.mockWebServer)
-//    androidTestImplementation(Testing.hiltTesting)
-//    kaptAndroidTest(Dependencies.DaggerHilt.hiltCompiler)
-//    androidTestImplementation(Testing.testRunner)
 }

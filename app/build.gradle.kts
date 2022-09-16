@@ -83,7 +83,7 @@ dependencies {
     testImplementation(Testing.truth)
     testImplementation(Testing.coroutines)
     testImplementation(Testing.turbine)
-    testImplementation(Testing.mockk)
+//    testImplementation(Testing.mockk)
     testImplementation(Testing.mockWebServer)
 
     androidTestImplementation(Testing.junit4)
@@ -92,7 +92,7 @@ dependencies {
     androidTestImplementation(Testing.coroutines)
     androidTestImplementation(Testing.turbine)
     androidTestImplementation(Testing.espressoCore)
-    androidTestImplementation(Testing.mockkAndroid)
+//    androidTestImplementation(Testing.mockkAndroid)
     androidTestImplementation(Testing.mockWebServer)
     androidTestImplementation(Testing.hiltTesting)
     kaptAndroidTest(Dependencies.DaggerHilt.hiltCompiler)

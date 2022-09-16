@@ -42,5 +42,4 @@ dependencies {
     implementation(Dependencies.OkHttp.okHttp)
     implementation(Dependencies.OkHttp.okHttpLoggingInterceptor)
 
-
 }
