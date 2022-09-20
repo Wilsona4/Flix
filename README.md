@@ -3,7 +3,7 @@ Multimodular Movie Application, with Kotlin, MVVM, Offline Caching via Room, Pag
 
 |            |            |            |            |
 |------------|------------|------------|------------|
-| ![Screenshot_20220916_225353_Flix](https://user-images.githubusercontent.com/50172975/191314232-9665ccfe-1959-401c-8e20-903499a71e04.jpeg) | ![img two](details.JPG) | ![Screenshot_20220916_225515_Flix](https://user-images.githubusercontent.com/50172975/191314314-836965e9-89c0-46f4-ad3c-869ecfe76b2c.jpeg)| ![Screenshot_20220916_225526_Flix](https://user-images.githubusercontent.com/50172975/191314352-517ea366-113f-4098-8800-6742ef64a6b3.jpeg) |
+| ![Screenshot_20220916_225353_Flix](https://user-images.githubusercontent.com/50172975/191314232-9665ccfe-1959-401c-8e20-903499a71e04.jpeg) | ![Screenshot_20220916_225515_Flix](https://user-images.githubusercontent.com/50172975/191314314-836965e9-89c0-46f4-ad3c-869ecfe76b2c.jpeg)| ![Screenshot_20220916_225526_Flix](https://user-images.githubusercontent.com/50172975/191314352-517ea366-113f-4098-8800-6742ef64a6b3.jpeg) |
 
 ## Tech stack & Third-party libraries
 - Architecture
