@@ -6,7 +6,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="feature-popular/popular-presentation/src/main/res/layout/fragment_popular_details.xml" value="0.1" />
         <entry key="feature-popular/popular-presentation/src/main/res/layout/fragment_popular_list.xml" value="0.2796875" />
-        <entry key="feature-popular/popular-presentation/src/main/res/layout/gallery_rv_item.xml" value="0.2786458333333333" />
+        <entry key="feature-popular/popular-presentation/src/main/res/layout/gallery_rv_item.xml" value="0.375" />
         <entry key="feature-popular/popular-presentation/src/main/res/layout/load_state_footer_view_item.xml" value="0.2796875" />
         <entry key="feature-popular/popular-presentation/src/main/res/layout/repos_load_state_footer_view_item.xml" value="0.2796875" />
       </map>

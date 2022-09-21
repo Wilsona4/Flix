@@ -83,7 +83,7 @@ dependencies {
     testImplementation(Testing.truth)
     testImplementation(Testing.coroutines)
     testImplementation(Testing.turbine)
-//    testImplementation(Testing.mockk)
+    testImplementation(Testing.mockk)
     testImplementation(Testing.mockWebServer)
 
     androidTestImplementation(Testing.junit4)

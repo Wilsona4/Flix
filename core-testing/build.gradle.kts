@@ -51,6 +51,7 @@ dependencies {
     api(Testing.turbine)
     api(Testing.espressoCore)
     api(Testing.testRunner)
+    api(Testing.mockk)
 //    api(Testing.mockkAndroid)
     api(Testing.mockWebServer)
     api(Testing.hiltTesting)

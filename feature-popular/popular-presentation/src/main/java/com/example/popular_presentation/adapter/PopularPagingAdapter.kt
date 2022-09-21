@@ -59,6 +59,8 @@ class PopularPagingAdapter(private val interaction: Interaction? = null) :
                 movie.vote_average.let {
                     favourite.isChecked = it >= 7
                 }
+
+                tvRating.text = movie.vote_average.toString()
             }
 
         }
