@@ -15,7 +15,7 @@
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:spanCount="3"
+        app:spanCount="2"
         tools:itemCount="20"
         tools:listitem="@layout/gallery_rv_item" />
 
